@@ -60,19 +60,32 @@ DenseNet161 model architecture vizualizatin for 4 classes X-Ray Image Classifica
 
 ![densenet161 architecture](https://github.com/cheavearo/chest-xray-densenet161/blob/f91bd46a4dde376b0152a03726c73dcd4f151450/assets/densenet%20architecture.jpg)
 
+**Figure 01:** DenseNet Model Architecture
+
 
 
 ## 3. Model Training and Evaluation
 
 This project we use the pre-trained model DenseNet161 as the base model. And there are two stages of model training: 
-1) **Feature Extraction training**: Freeze all trainable parameters of the base model, add the classifier head layers and perform 25 epochs of the model training.
-2) **Fine-tuning of the model**: We load the first round trained model and **unfreeze** the all trainable layers, and perform another round of the model training, 25 epochs more.
-## 4. Run Application and Mongo DB Database Integration 
-
+1) **Feature Extraction training**: Freeze all trainable parameters of the base model, add the classifier head layers and perform 25 epochs of the model training (Figure 02).
 ![Feature Extraction Training](https://github.com/cheavearo/chest-xray-densenet161/blob/aa7399fbfb07cb4d8ded9b3d666f3345559ee684/assets/feature_extraction_graph.png)
 
-![Full Finetuning Training](https://github.com/cheavearo/chest-xray-densenet161/blob/aa7399fbfb07cb4d8ded9b3d666f3345559ee684/assets/training%20graph.png)
+**Figure 02:** Accuracy and Loss Graph of Feature Extraction (Freeze All Trainable Layers)
 
+2) **Fine-tuning of the model**: We load the first round trained model and **unfreeze** the all trainable layers, and perform another round of the model training, 25 epochs more 
+
+(Figure 03).
+
+![Full Finetuning Training](https://github.com/cheavearo/chest-xray-densenet161/blob/aa7399fbfb07cb4d8ded9b3d666f3345559ee684/assets/training%20graph.png)
+**Figure 03:** Accuracy and Loss Graph of Finetuning Training (Unreeze All Trainable Layers like train)
+
+## 4. Run Application and Mongo DB Database Integration 
+
+ **🎥 Demo Video**
+
+[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+
+**Demonstration of the AI system performing real-time chest X-ray classification and saving results to MongoDB Atlas.**
 
 ## *References*
 [1] World Health Organization: Disease Outbreak News, Covid-19-Global Situation.
