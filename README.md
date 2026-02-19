@@ -58,7 +58,7 @@ The pre-trained model DenseNet161 is used in this project.
 
 DenseNet161 model architecture vizualizatin for 4 classes X-Ray Image Classification:
 
-![densenet4.onnx]("assets/densenet architecture.jpg")
+![densenet161 architecture](https://github.com/cheavearo/chest-xray-densenet161/blob/f91bd46a4dde376b0152a03726c73dcd4f151450/assets/densenet%20architecture.jpg)
 
 
 
