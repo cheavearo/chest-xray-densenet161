@@ -69,7 +69,9 @@ This project we use the pre-trained model DenseNet161 as the base model. And the
 2) **Fine-tuning of the model**: We load the first round trained model and **unfreeze** the all trainable layers, and perform another round of the model training, 25 epochs more.
 ## 4. Run Application and Mongo DB Database Integration 
 
-![Feature Extraction Training](https://github.com/cheavearo/angkorice-vision/blob/25a8a257adaeb0b23f9eede4c7a3f51945cbbd74/research/training_results_v1/feature_extraction_training_acc_and_loss_graph.png)
+![Feature Extraction Training](https://github.com/cheavearo/chest-xray-densenet161/blob/aa7399fbfb07cb4d8ded9b3d666f3345559ee684/assets/feature_extraction_graph.png)
+
+![Full Finetuning Training](https://github.com/cheavearo/chest-xray-densenet161/blob/aa7399fbfb07cb4d8ded9b3d666f3345559ee684/assets/training%20graph.png)
 
 
 ## *References*
