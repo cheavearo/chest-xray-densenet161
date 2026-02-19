@@ -1,0 +1,16 @@
+# environments
+.env
+venv/
+
+# datasets
+research/
+dataset/
+*.zip
+*.tar
+
+# model weights
+final_model
+
+# cache
+__pycache__/
+*.pyc
