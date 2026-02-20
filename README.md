@@ -83,7 +83,7 @@ This project we use the pre-trained model DenseNet161 as the base model. And the
 
  **🎥 Demo Video**
 
-[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://youtu.be/7F0vZ9VcRyU?si=enJUf5mZ0KJZClxy)
+[![Watch the demo](https://github.com/cheavearo/chest-xray-densenet161/blob/9bae887bec93a00da4cc94a1b5290826a3afcca0/assets/chest_x_ray_thumbnail.png)](https://youtu.be/7F0vZ9VcRyU?si=enJUf5mZ0KJZClxy)
 
 **Demonstration of the AI system performing real-time chest X-ray classification and saving results to MongoDB Atlas.**
 
